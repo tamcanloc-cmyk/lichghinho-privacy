@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Quyền Riêng Tư - Lịch Ghi Nhớ</title>
+    <style>
+        :root {
+            --primary: #754522;
+            --primary-dark: #543118;
+            --bg-color: #FDFBF8;
+            --card-bg: #FFFFFF;
+            --text-main: #34271F;
+            --text-sub: #64748B;
+            --border: #EDE3D8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(135deg, #754522, #925A2D);
+            color: #FFFFFF;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .header p {
+            margin: 8px 0 0;
+            opacity: 0.9;
+            font-size: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 19px;
+            margin-top: 0;
+            border-bottom: 2px solid #F5E6D3;
+            padding-bottom: 8px;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact-box {
+            background-color: #FAF4ED;
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-sub);
+            padding: 20px;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>CHÍNH SÁCH QUYỀN RIÊNG TƯ</h1>
+        <p>Ứng dụng Lịch Ghi Nhớ • Nguyễn Duy Tâm Studio</p>
+        <p style="font-size: 13px; opacity: 0.8;">Cập nhật lần cuối: 13/11/2026</p>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>1. Giới thiệu tổng quan</h2>
+            <p><strong>Nguyễn Duy Tâm Studio</strong> ("Chúng tôi") cam kết tôn trọng và bảo vệ tuyệt đối quyền riêng tư của người dùng ("Bạn") khi sử dụng ứng dụng di động <strong>Lịch Ghi Nhớ</strong> (Application ID: <code>com.nhacnho.ngayquantrong</code>).</p>
+            <p>Chính sách này giải thích cách chúng tôi xử lý thông tin và dữ liệu khi bạn sử dụng ứng dụng. <strong>Nguyên tắc cốt lõi của chúng tôi là bảo mật cục bộ (Local-First): mọi dữ liệu cá nhân của bạn thuộc về riêng bạn và được lưu trữ an toàn ngay trên thiết bị của bạn.</strong></p>
+        </div>
+
+        <div class="card">
+            <h2>2. Thu thập và Sử dụng Dữ liệu</h2>
+            <p>Ứng dụng <strong>Lịch Ghi Nhớ KHÔNG THU THẬP, KHÔNG THEO DÕI VÀ KHÔNG GỬI BẤT KỲ THÔNG TIN CÁ NHÂN NÀO</strong> về máy chủ của chúng tôi hoặc bất kỳ bên thứ ba nào.</p>
+            <ul>
+                <li><strong>Dữ liệu sự kiện & công việc:</strong> Các thông tin bạn tạo như Tên ngày giỗ, Sinh nhật, Ngày kỷ niệm, Công việc, Ngày giờ hẹn và Ghi chú được lưu trữ hoàn toàn trong cơ sở dữ liệu nội bộ (SQLite/Room) trên điện thoại của bạn.</li>
+                <li><strong>Không yêu cầu tài khoản:</strong> Bạn không cần đăng ký tài khoản, không cần cung cấp email, số điện thoại hay thông tin định danh để sử dụng toàn bộ tính năng của ứng dụng.</li>
+                <li><strong>Không thu thập vị trí:</strong> Ứng dụng không yêu cầu và không truy cập vị trí địa lý GPS của bạn.</li>
+                <li><strong>Không thu thập dữ liệu tài chính hay danh bạ:</strong> Ứng dụng không đọc tin nhắn, không đọc danh bạ và không liên quan đến thông tin thanh toán.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Quyền Truy Cập Trên Thiết Bị Android</h2>
+            <p>Ứng dụng chỉ yêu cầu các quyền kỹ thuật tối thiểu cần thiết để phục vụ chức năng hiển thị lịch và nhắc nhở báo thức:</p>
+            <ul>
+                <li><code>SCHEDULE_EXACT_ALARM</code> & <code>USE_EXACT_ALARM</code>: Đặt chuông báo thức chính xác đúng thời điểm ngày giờ bạn đã cài đặt.</li>
+                <li><code>POST_NOTIFICATIONS</code>: Hiển thị thông báo nhắc việc và sự kiện trên thanh thông báo (dành cho Android 13 trở lên).</li>
+                <li><code>RECEIVE_BOOT_COMPLETED</code>: Tự động khôi phục lịch báo thức sau khi điện thoại khởi động lại để đảm bảo bạn không bị lỡ ngày quan trọng.</li>
+                <li><code>USE_FULL_SCREEN_INTENT</code> & <code>DISABLE_KEYGUARD</code>: Cho phép hiển thị màn hình báo thức nổi bật khi điện thoại đang khóa màn hình.</li>
+                <li><code>VIBRATE</code> & <code>WAKE_LOCK</code>: Rung máy và đánh thức thiết bị tạm thời khi đến giờ chuông báo thức.</li>
+                <li><code>FOREGROUND_SERVICE</code>: Phát âm thanh chuông báo thức chuẩn xác mà không bị hệ điều hành tắt ngắt quãng.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Cơ chế Sao lưu và Khôi phục (Backup & Restore)</h2>
+            <p>Ứng dụng cung cấp chức năng sao lưu để bạn bảo toàn dữ liệu:</p>
+            <ul>
+                <li>Khi bạn chọn <strong>Xuất tệp sao lưu</strong>, ứng dụng sẽ tạo một tệp có đuôi <code>.lgnbackup</code> chứa dữ liệu sự kiện của bạn và lưu trực tiếp vào thư mục tải về hoặc bộ nhớ máy của bạn.</li>
+                <li>Tệp này hoàn toàn do bạn quản lý, bạn có thể sao chép, lưu trữ lên Google Drive cá nhân hoặc gửi sang máy mới. Chúng tôi không thể tiếp cận hay đọc tệp sao lưu này.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Quảng cáo và Dịch vụ Bên thứ ba</h2>
+            <ul>
+                <li>Ứng dụng <strong>Lịch Ghi Nhớ KHÔNG CHỨA QUẢNG CÁO</strong> (Không tích hợp Google AdMob, Unity Ads, Facebook Audience Network hoặc bất kỳ mạng quảng cáo nào).</li>
+                <li>Ứng dụng không nhúng mã theo dõi hành vi người dùng (No Analytics, No Tracking SDKs).</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Quyền riêng tư của Trẻ em</h2>
+            <p>Ứng dụng an toàn cho mọi lứa tuổi và không thu thập bất kỳ thông tin nào từ bất kỳ người dùng nào, kể cả trẻ em dưới 13 tuổi.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Xóa Dữ liệu</h2>
+            <p>Bạn có toàn quyền kiểm soát dữ liệu của mình bất cứ lúc nào:</p>
+            <ul>
+                <li>Bạn có thể xóa từng sự kiện hoặc toàn bộ danh sách trong mục <strong>Cần nhớ</strong>.</li>
+                <li>Khi bạn gỡ cài đặt ứng dụng (Uninstall), toàn bộ cơ sở dữ liệu và cài đặt của ứng dụng sẽ tự động được hệ điều hành Android xóa sạch hoàn toàn khỏi thiết bị.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>8. Thông tin Liên hệ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào liên quan đến Chính sách quyền riêng tư này, xin vui lòng liên hệ trực tiếp với chúng tôi:</p>
+            <div class="contact-box">
+                <p><strong>Nguyễn Duy Tâm Studio</strong></p>
+                <p>Email hỗ trợ: <strong>[Điền email hỗ trợ của bạn vào đây]</strong></p>
+                <p>Hotline / Zalo hỗ trợ: <strong>037 250 5678</strong></p>
+                <p>Quốc gia: Việt Nam</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 Nguyễn Duy Tâm Studio. Bản quyền ứng dụng Lịch Ghi Nhớ. Bảo lưu mọi quyền.
+    </div>
+
+</body>
+</html>
